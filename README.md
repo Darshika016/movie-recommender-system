@@ -6,7 +6,7 @@ A Content-Based Movie Recommendation System built using Machine Learning and dep
 
 ## 🚀 Live Demo
 
-👉 
+👉 https://movie-recommender-system-gmxo498lbhns9sbdrmqwi7.streamlit.app/
 
 ---
 
