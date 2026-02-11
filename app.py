@@ -29,7 +29,8 @@ def recommend(movie):
 movies_dict = pickle.load(open('movies.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('similarity.pkl','rb'))
+from sklearn.feature_extraction.text import CountVectorizer
+cv = CountVectorizer(max_features=5000, stop_words='english')
 
 st.title('Movie Recommender System')
 
